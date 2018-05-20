@@ -3,11 +3,13 @@
 Tutorial on how to build hierarchical clustering dendrogram using Python and R
 
 ## Tutorial includes the following steps
-- Make each point a single point cluster , that forms N cluster
-- Take two data points and make them 1 cluster . That forms N - 1
-- Take the 2 closest clusters and make them one cluster . That forms N-2
-- Repeat last step till 1 cluster 
-- END
+- Importing the libraries
+- Importing the dataset
+- Splitting the dataset into the Training set and Test set
+- Feature Scaling
+- Using the dendrogram to find the optimal number of clusters
+- Fitting Hierarchical Clustering to the dataset
+- Visualising the clusters
 
 
 ![alt text](https://media.giphy.com/media/pSNCWCEAsgrAs/giphy.gif)
